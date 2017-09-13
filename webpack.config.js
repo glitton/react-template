@@ -21,6 +21,19 @@ module.exports = {
         query: {
           presets: ['latest', 'react', 'stage-0']
         }
+      },
+      {
+        test: /\.json$/,
+        exclude: /(node_modules)/,
+        loader: 'json-loader'
+      },
+      {
+        test: /\.css$/,
+        loader: 'style-loader!css-loader!autoprefixer-loader'
+      },
+      {
+        test: /\.scss$/,
+        loader: 'style-loader!css-loader!autoprefixer-loader!sass-loader'
       }
     ]
   }
