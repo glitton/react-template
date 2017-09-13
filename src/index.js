@@ -17,7 +17,7 @@ render(
   <h1 id='title'      
       className='header'
       style={{backgroundColor:'pink', color: 'black', fontFamily: 'verdana'}}>
-  Hello World 
+    Hello Osay! You will get the job that yo want!  
   </h1>,
   document.getElementById('react-container')
 )
